@@ -78,7 +78,7 @@ To find this page ID, you'll usually find it appended to the URL while you're ed
 
 Using [Postman](https://www.getpostman.com/), I run `GET wp/v2/pages?parent=217`
 
-![background](./images/postman-parent-wp-api.jpg)
+
 
 In my case, I find that 2 entries (Reviews and Resources page IDs) pop up with the Parent ID equal the ID 217. Success! 
 

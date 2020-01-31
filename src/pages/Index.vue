@@ -1,31 +1,26 @@
 <template>
   <Layout>
-    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
+    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between items-center py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight">Gridsome Portfolio Starter</div>
-        <div class="text-green-700 leading-tight">Powered by Vue.js &amp; Tailwind v1</div>
+        <div class="leading-tight">Hey! I'm Ben Umali, a</div>
+        <div class="text-blue-500 leading-tight">Front End Web Developer</div>
+        <div class="leading-tight">living in Los Angeles.</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
+        <g-image src="../../static/benheadshot.jpg" alt="hero" class="mx-auto w-64 rounded-lg shadow-lg sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
-    <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl">This gridsome theme was forked from my <a href="https://andremadarang.com">personal website</a>. I added more features and decided to release it as an open source project. Check it out on <a href="https://github.com/drehimself/gridsome-portfolio-starter">GitHub</a> or check out the <a href="https://www.youtube.com/watch?v=uHo6o1TNQeE">screencast I did</a>. Feel free to use it for your own site or projects! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat. Dolores iure, quas perspiciatis rerum quaerat atque eum repellat autem.</p>
+    <div class="container-inner mx-auto mb-10">
+      <p class="text-lg sm:text-xl mb-4">I have been making websites since 2014, working primarily as a web developer for <a href="newhair.com">NHI Medical</a>, as well as freelance work on eCommerce websites, blogs and graphics design for small businesses in the Los Angeles area.
+      </p>
+      <p class="text-lg sm:text-xl"> I'm passionate about building responsive web apps and sites with a great user experience. Currently, I'm the cofounder and lead developer of a startup called <a href="https://getsettledin.com" target="_blank">GetSettledIn.com</a>, a SaaS platform built in the property management space to help streamline the move-in process for property managers and their new tenants.</p>
 
-      <div class="flex justify-between items-center py-6">
-        <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <g-image src="../../static/mind_map.svg" alt="browser" />
-        </div>
-        <div class="w-1/2 px-8 hidden sm:flex justify-end">
-          <g-image src="../../static/code_review.svg" alt="mobile" />
-        </div>
-      </div>
     </div>
 
     <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
-        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
+        <h2 class="font-bold mb-6" id="projects">My Work</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -33,27 +28,22 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
-            <div>Project One</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div><a href="https://getsettledin.com" target="_blank">GetSettledIn.com</a></div>
+            <div class="text-lg text-gray-600">CoFounder of a Property Management SaaS platform built on Rails, Tailwind and Stimulus to help streamline the move-in process for property managers and their new tenants.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Two</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Squall</div>
+            <div class="text-lg text-gray-600"> A modern Wordpress Theme built on Tailwind with Vue Components and Advanced Custom Fields. Built to speed up my work flow with freelance clients while maintaining a modern stack without messy plugins.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Three</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div><a href="https://hopialikeit.com" target="_blank">HopiaLikeIt</a></div>
+            <div class="text-lg text-gray-600">Redesigned and developed a mobile responsive website for Hopia Like It, a Filipino Restaurant based in the Los Angeles area. Built on WordPress and WooCommerce for customers to shop the websites and get pastry/food delivery.</div>
           </li>
-          <li class="checkmark mb-6">
-            <div>Project Four</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-
         </ul>
       </div> <!-- end projects -->
     </div>
 
-    <div class="overflow-x-hidden border-gray-200 border-b">
+    <div class="hidden overflow-x-hidden border-gray-200 border-b">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
         <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
 
@@ -72,7 +62,7 @@
       </div> <!-- end get-to-know me -->
     </div>
 
-    <div class="overflow-x-hidden">
+    <div class="hidden overflow-x-hidden">
       <div class="contact-me bg-background-secondary pt-16">
         <div class="container-inner mx-auto text-xl pb-4 relative">
           <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
@@ -120,7 +110,7 @@
       </div> <!-- end contact-me -->
     </div>
 
-    <div class="newsletter bg-background-tertiary">
+    <div class="hidden newsletter bg-background-tertiary">
       <div class="container-inner mx-auto py-16 pb-8 text-center textl-xl">
         <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
 

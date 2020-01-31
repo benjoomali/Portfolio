@@ -60,7 +60,6 @@ Now, this may not be the smartest way to get this done, but I did want to start 
 
 Before moving on, let's go ahead and create a couple test pages, and set the parent page of those child pages to the desired page. In this case, I named the parent page **Parent Page** and the Child Pages **Reviews** and **Resources**
 
-![image](./images/wp-dashboard-parent-page-select.jpg)
 
 To set the parent page, in your editor look along the right side for the Page Attributes setting. There you'll be able to select which page as the parent.
 
